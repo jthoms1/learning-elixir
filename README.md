@@ -36,9 +36,14 @@ $ kerl list installations
 
 Activate install
 ```bash
-. ~/erlang/17.4/activate
+$ . ~/erlang/17.4/activate
 ```
-Run file
+Install elixir
 ```bash
-./learnerlang.erl
+$ brew install elixir
+```
+
+Add to Path
+```bash
+export PATH="$PATH:/path/to/elixir/bin"
 ```
